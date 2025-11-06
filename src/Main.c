@@ -39,7 +39,7 @@ void Update(AlxWindow* w){
         n += 1.0f;
         n /= 2.0f;
         
-        //Draw(x,((1.0f - n) * GetHeight() * 0.8f),WHITE);
+        Point_Render(WINDOW_STD_ARGS,(Vec2){ x,((1.0f - n) * GetHeight() * 0.8f) },WHITE);
 
         Vec2 s = { x,((1.0f - n) * GetHeight() * 0.8f) };
         Vec2 e = { x,GetHeight() * 0.8f };
